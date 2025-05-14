@@ -7,7 +7,6 @@ print(uppercase_string)
 def switch_underscore_hyphen(input_string):
     return input_string.replace('_', '#TEMP#').replace('-', '_').replace('#TEMP#', '-')
 
-# Example usage
 mixed_string = uppercase_string
 switched_string = switch_underscore_hyphen(mixed_string)
 

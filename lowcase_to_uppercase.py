@@ -11,4 +11,4 @@ mixed_string = uppercase_string
 switched_string = switch_underscore_hyphen(mixed_string)
 
 print(f"Original: {mixed_string}")
-print(f"Switched: {switched_string}")
+print(f"Modified: {switched_string}")

@@ -4,9 +4,8 @@ prices = [11.20, 25.99, 51.00, 100.10]
 
 
 def tax_apply(price: float) -> float:
-    return round(price * 1.5, 2)
+     return round(price * 1.5, 2)
 
-    
     
 
 taxed_price = []

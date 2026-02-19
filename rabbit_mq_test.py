@@ -51,7 +51,7 @@ if __name__ == "__main__":
     RABBITMQ_PORT = 5672        
     RABBITMQ_USER = 'guest'     
     RABBITMQ_PASS = 'guest'     
-    RABBITMQ_VHOST = '/'        
+    RABBITMQ_VHOST = '/'         
 
     test_rabbitmq_connection(
         host=RABBITMQ_HOST, 

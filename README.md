@@ -6,6 +6,8 @@ Setup the env
 
       source env/bin/activate
 
+      python3 <urcode.py>
+
 How close the env:
 
       deactivate

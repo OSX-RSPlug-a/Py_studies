@@ -16,4 +16,4 @@ def days_of_week(day_number):
     print(days_of_week.get(day_number, "Invalid day number"))
     
 
-days_of_week(day_number) 
+days_of_week(day_number)  

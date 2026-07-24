@@ -1,6 +1,7 @@
 import random
 
 tuple_frutas = ("apple", "banana", "cherry")
+
 print(tuple_frutas[2])
 print(len(tuple_frutas))
 print(tuple_frutas)

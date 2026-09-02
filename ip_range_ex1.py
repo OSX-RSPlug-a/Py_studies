@@ -15,7 +15,7 @@ def generate_ips(start_ip: str, count: int) -> List[str]:
         octet = base + i
 
         if octet > 255:
-            raise ValueError("IP range exceeded 255 in the last octet")
+            raise ValueError("IP range exceeded 255 in the last numbers")
 
         ips.append(f"{parts[0]}.{parts[1]}.{parts[2]}.{octet}")
 
